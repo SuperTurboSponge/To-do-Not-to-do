@@ -1,0 +1,76 @@
+html{
+}
+*{
+	/* outline:  1px solid #ccc; */
+}
+body{
+	font-family: arial, sans-serif ;
+	font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.nav-cat{
+	
+}
+h1{
+
+
+    font-family: 'Playfair Display', serif;
+
+    
+
+
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+.liste-sans{
+	margin:  0;
+	padding:  0;
+	list-style: none;
+}
+.liste-sans li{
+	margin:  0;
+	padding:  0;
+}
+.zoom{
+	display: flex;
+}
+.zoom div{
+	width: 50%;
+}
+.nav-cat ul{
+	margin:  0;
+	padding:  0;
+	list-style: none;
+}
+.nav-cat li{
+	margin:  1rem 1rem 1rem 0;
+	padding:  0;
+	display: inline-block;
+	
+}
+.nav-cat a{
+	display: block;
+	text-transform: uppercase;
+	padding:.5rem 1rem;
+
+	background: #ccc;
+	border-radius: .2rem;
+
+}
+.fiches{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+  	grid-template-rows: auto;
+  	grid-gap: 2rem;
+}
+.fiche{
+	margin-bottom: 1rem;
+}
